@@ -1,2 +1,2 @@
 # Actualizar Drivers
-Descargar ejecutable: https://raw.githubusercontent.com/Rodri082/ActualizarDrivers/main/Actualizar%20Drivers.exe
+https://raw.githubusercontent.com/Rodri082/ActualizarDrivers/main/Herramienta%20para%20Actualizar%20Drivers.exe
