@@ -102,16 +102,16 @@ def create_gui():
 
     row_num += 1
 
-    motherboard_driver_url = f"https://duckduckgo.com/?q=\{system_info['Motherboard:']}%20driver%20%22download%22"
+    motherboard_driver_url = f"https://duckduckgo.com/?q=\{system_info['Motherboard:']}%20driver%20download"
     motherboard_driver_button = ttk.Button(frame, text="Descargar Controladores de Motherboard", command=lambda: webbrowser.open(motherboard_driver_url))
     motherboard_driver_button.grid(column=0, row=row_num, columnspan=1, sticky=tk.W, padx=10, pady=(10, 2))
 
     gpu_name = gpu_info['Tarjeta Gráfica:']
     if "Microsoft" in gpu_name:
-        video_driver_url = f"https://duckduckgo.com/?q=\{cpu_info['Procesador:']}%20driver%20%22download%22"
+        video_driver_url = f"https://duckduckgo.com/?q=\{cpu_info['Procesador:']}%20driver%20download"
         video_driver_button = ttk.Button(frame, text="Descargar Controladores de Video", command=lambda: webbrowser.open(video_driver_url))
     else:
-        video_driver_url = f"https://duckduckgo.com/?q=\{gpu_info['Tarjeta Gráfica:']}%20driver%20%22download%22"
+        video_driver_url = f"https://duckduckgo.com/?q=\{gpu_info['Tarjeta Gráfica:']}%20driver%20download"
         video_driver_button = ttk.Button(frame, text="Descargar Controladores de Video", command=lambda: webbrowser.open(video_driver_url))
 
     video_driver_button.grid(column=1, row=row_num, columnspan=1, sticky=tk.W, padx=10, pady=(10, 2))
