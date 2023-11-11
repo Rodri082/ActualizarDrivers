@@ -1,8 +1,0 @@
-! Title: malware and phishing list
-! Version: 20October2023v1-Compilation
-! Expires: 1 days
-
-!#include https://phishing.army/download/phishing_army_blocklist_extended.txt
-! >>>>>>>> https://phishing.army/download/phishing_army_blocklist_extended.txt
-!#include https://urlhaus.abuse.ch/downloads/text/
-! >>>>>>>> https://urlhaus.abuse.ch/downloads/text/
